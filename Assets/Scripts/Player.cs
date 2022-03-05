@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -9,9 +8,11 @@ public class Player : MonoBehaviour
    [SerializeField] private float _minHeight;
    
    private Vector3 _targetPosition;
+   private readonly Vector3 _startPosition = new(-20, 0);
+   
    private void Start()
    {
-      _targetPosition = new Vector3(-20,0);
+      _targetPosition = _startPosition;
    }
 
    private void Update()
@@ -32,5 +33,4 @@ public class Player : MonoBehaviour
          _targetPosition = new Vector3(_targetPosition.x, _targetPosition.y - _verticalOffset);
       }
    }
-   
 }
