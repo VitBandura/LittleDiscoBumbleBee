@@ -179,8 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba7b802a7f08c469c3848e86f3a623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 1
-  _movementSpeed: 16
+  _movementSpeed: 32
   _verticalOffset: 8
   _maxHeight: 8
   _minHeight: -8

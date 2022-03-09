@@ -12,13 +12,11 @@ public class Spawner : MonoBehaviour
     private int _spawnPointsCount;
     private float _timer;
     
-
     private void Awake()
     {
         _prefabsForSpawnCount = _prefabsForSpawn.Length;
         _spawnPointsCount = _spawnPoints.Length;
     }
-
     private void Update()
     {
         if (_timer <= 0)
@@ -30,9 +28,7 @@ public class Spawner : MonoBehaviour
         {
             _timer -= Time.deltaTime;
         }
-        
     }
-
     private void SpawnInteractiveUnit()
     {
         var currentPrefabForSpawn = _prefabsForSpawn[Random.Range(0, _prefabsForSpawnCount)];
