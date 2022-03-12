@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 8441679307118424153}
   m_Layer: 0
   m_Name: Flower
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fae7f28150eccb74ebaa8211525746eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementSpeed: 25
+  _movementSpeed: 50
 --- !u!61 &8441679307118424153
 BoxCollider2D:
   m_ObjectHideFlags: 0

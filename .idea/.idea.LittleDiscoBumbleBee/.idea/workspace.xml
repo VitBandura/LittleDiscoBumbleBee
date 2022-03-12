@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Flower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Flower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -27,8 +31,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25t5BnG2Itezr96uj8nTqLU55TD" />
@@ -80,7 +84,8 @@
       <updated>1646333414922</updated>
       <workItem from="1646333427044" duration="3277000" />
       <workItem from="1646505061578" duration="5440000" />
-      <workItem from="1646822296769" duration="2240000" />
+      <workItem from="1646822296769" duration="7476000" />
+      <workItem from="1647073857067" duration="2431000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -110,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646510852344</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added object destroyer">
+      <created>1646824947565</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646824947565</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +148,8 @@
     <MESSAGE value="Added some project configuration files" />
     <MESSAGE value="Added player movement script" />
     <MESSAGE value="Added interactive objects and spawner for them (prefabs and scripts)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added interactive objects and spawner for them (prefabs and scripts)" />
+    <MESSAGE value="Added object destroyer" />
+    <MESSAGE value="Added simple score counter and health panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple score counter and health panel" />
   </component>
 </project>
