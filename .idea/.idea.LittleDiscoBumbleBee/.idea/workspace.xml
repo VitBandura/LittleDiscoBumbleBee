@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Added simple score counter and background. Small speed changes">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Flower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Flower.prefab" afterDir="false" />
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Flower class (mistake on pushing last time)">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Flower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Flower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Prefabs/Flower.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Prefabs/Cactus.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
@@ -33,11 +33,11 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flower.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flower.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25t5BnG2Itezr96uj8nTqLU55TD" />
@@ -134,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647094561572</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added flower class, score manager has been refactored into separated class">
+      <created>1647097574731</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647097574731</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Flower class (mistake on pushing last time)">
+      <created>1647097732666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647097732666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +177,8 @@
     <MESSAGE value="Added object destroyer" />
     <MESSAGE value="Added simple score counter and health panel" />
     <MESSAGE value="Added simple score counter and background. Small speed changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added simple score counter and background. Small speed changes" />
+    <MESSAGE value="Added flower class, score manager has been refactored into separated class" />
+    <MESSAGE value="Flower class (mistake on pushing last time)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flower class (mistake on pushing last time)" />
   </component>
 </project>

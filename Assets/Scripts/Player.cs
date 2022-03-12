@@ -1,7 +1,4 @@
-using System;
-using System.Globalization;
 using UnityEngine;
-using TMPro;
 
 public class Player : MonoBehaviour
 {
@@ -12,7 +9,6 @@ public class Player : MonoBehaviour
    
    private Vector3 _targetPosition;
    private readonly Vector3 _startPosition = new(-20, 0);
-   
    private void Start()
    {
       transform.position = _startPosition;

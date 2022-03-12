@@ -37,6 +37,5 @@ public class Spawner : MonoBehaviour
         var currentSpawnPoint = _spawnPoints[Random.Range(0, _spawnPointsCount)].transform.position;
         var flower = Instantiate(currentPrefabForSpawn, currentSpawnPoint,quaternion.identity);
         flower.IncreaseScore += _scoreManager.AddScorePoint;
-        
-    }
+        }
 }
