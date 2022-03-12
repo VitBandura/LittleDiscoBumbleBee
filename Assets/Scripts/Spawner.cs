@@ -4,9 +4,11 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private GameObject[] _prefabsForSpawn;
+    [SerializeField] private Flower[] _prefabsForSpawn;
     [SerializeField] private GameObject[] _spawnPoints;
     [SerializeField] private float _spawnInterval;
+
+    [SerializeField] private ScoreManager _scoreManager; //refactor into separated
 
     private int _prefabsForSpawnCount;
     private int _spawnPointsCount;
@@ -33,6 +35,8 @@ public class Spawner : MonoBehaviour
     {
         var currentPrefabForSpawn = _prefabsForSpawn[Random.Range(0, _prefabsForSpawnCount)];
         var currentSpawnPoint = _spawnPoints[Random.Range(0, _spawnPointsCount)].transform.position;
-        Instantiate(currentPrefabForSpawn, currentSpawnPoint,quaternion.identity);
+        var flower = Instantiate(currentPrefabForSpawn, currentSpawnPoint,quaternion.identity);
+        flower.IncreaseScore += _scoreManager.AddScorePoint;
+        
     }
 }
