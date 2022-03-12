@@ -4,26 +4,28 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private Flower[] _prefabsForSpawn;
+    [SerializeField] private FlowerPool _flowerPool;
     [SerializeField] private GameObject[] _spawnPoints;
     [SerializeField] private float _spawnInterval;
-
-    [SerializeField] private ScoreManager _scoreManager; //refactor into separated
-
-    private int _prefabsForSpawnCount;
+    
     private int _spawnPointsCount;
     private float _timer;
     
     private void Awake()
     {
-        _prefabsForSpawnCount = _prefabsForSpawn.Length;
         _spawnPointsCount = _spawnPoints.Length;
     }
+    
     private void Update()
+    {
+        SpawnPerInterval();
+    }
+
+    private void SpawnPerInterval()
     {
         if (_timer <= 0)
         {
-            SpawnInteractiveUnit();
+            Spawn();
             _timer = _spawnInterval;
         }
         else
@@ -31,11 +33,16 @@ public class Spawner : MonoBehaviour
             _timer -= Time.deltaTime;
         }
     }
-    private void SpawnInteractiveUnit()
+
+    private void Spawn()
     {
-        var currentPrefabForSpawn = _prefabsForSpawn[Random.Range(0, _prefabsForSpawnCount)];
-        var currentSpawnPoint = _spawnPoints[Random.Range(0, _spawnPointsCount)].transform.position;
-        var flower = Instantiate(currentPrefabForSpawn, currentSpawnPoint,quaternion.identity);
-        flower.IncreaseScore += _scoreManager.AddScorePoint;
-        }
+        var flower = _flowerPool.TakeFlowerFromPool();
+        flower.transform.position = SetRandomSpawnPoint();
+        flower.SetActive(true);
+    }
+
+    private Vector3 SetRandomSpawnPoint()
+    {
+        return _spawnPoints[Random.Range(0, _spawnPointsCount)].transform.position;
+    }
 }

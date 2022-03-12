@@ -9,17 +9,20 @@ public class Player : MonoBehaviour
    
    private Vector3 _targetPosition;
    private readonly Vector3 _startPosition = new(-20, 0);
+   
    private void Start()
    {
       transform.position = _startPosition;
       _targetPosition = _startPosition;
    }
+   
    private void Update()
    {
       var step = _movementSpeed * Time.deltaTime;
       transform.position = Vector3.MoveTowards(transform.position, _targetPosition, step);
       Fly();
    }
+   
    private void Fly()
    {
       if (Input.GetKeyDown(KeyCode.W) && _targetPosition.y < _maxHeight)
