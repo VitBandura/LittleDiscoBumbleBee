@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="">
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Small rework of flower pool">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +32,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flower.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25t5BnG2Itezr96uj8nTqLU55TD" />
@@ -89,7 +90,7 @@
       <workItem from="1646505061578" duration="5440000" />
       <workItem from="1646822296769" duration="7476000" />
       <workItem from="1647073857067" duration="2431000" />
-      <workItem from="1647267337987" duration="816000" />
+      <workItem from="1647267337987" duration="2703000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647101325140</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Small rework of flower pool">
+      <created>1647268756895</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647268756895</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +202,7 @@
     <MESSAGE value="Flower class (mistake on pushing last time)" />
     <MESSAGE value="Some cleanup in scripts" />
     <MESSAGE value="Cactus temporally disabled. Added object pool for flower" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cactus temporally disabled. Added object pool for flower" />
+    <MESSAGE value="Small rework of flower pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small rework of flower pool" />
   </component>
 </project>

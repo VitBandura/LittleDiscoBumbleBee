@@ -12,18 +12,28 @@ public class Player : MonoBehaviour
    
    private void Start()
    {
+      InitializePlayerStartPosition();
+   }
+
+   private void Update()
+   { 
+      MoveToTargetPosition();
+      UpdateTargetPosition();
+   }
+   
+   private void InitializePlayerStartPosition()
+   {
       transform.position = _startPosition;
       _targetPosition = _startPosition;
    }
-   
-   private void Update()
+
+   private void MoveToTargetPosition()
    {
       var step = _movementSpeed * Time.deltaTime;
       transform.position = Vector3.MoveTowards(transform.position, _targetPosition, step);
-      Fly();
    }
-   
-   private void Fly()
+
+   private void UpdateTargetPosition()
    {
       if (Input.GetKeyDown(KeyCode.W) && _targetPosition.y < _maxHeight)
       {
