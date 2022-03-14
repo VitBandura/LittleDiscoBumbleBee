@@ -93,8 +93,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8366328830375404528}
-  - component: {fileID: -223259166345199534}
   - component: {fileID: 8441679307118424153}
+  - component: {fileID: -223259166345199534}
   - component: {fileID: -7041206054795842111}
   m_Layer: 0
   m_Name: Flower
@@ -119,19 +119,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-223259166345199534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658254360613206874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae7f28150eccb74ebaa8211525746eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _movementSpeed: 50
 --- !u!61 &8441679307118424153
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -158,6 +145,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 37.34267, y: 28.070225}
   m_EdgeRadius: 0
+--- !u!114 &-223259166345199534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658254360613206874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae7f28150eccb74ebaa8211525746eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movementSpeed: 50
 --- !u!114 &-7041206054795842111
 MonoBehaviour:
   m_ObjectHideFlags: 0
