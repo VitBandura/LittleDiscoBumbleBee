@@ -21,13 +21,11 @@ public class HealthManager : MonoBehaviour
     {
         _honeyHearts[_health].gameObject.SetActive(false);
         _health--;
-        if(_health < 0)
-        {
-            //testing
-            Debug.Log("Dead");
-            //OnPlayerDead?.Invoke();
-            RefreshHealth();
-        }
+        if (_health >= 0) return;
+        //testing
+        Debug.Log("Dead");
+        //OnPlayerDead?.Invoke();
+        RefreshHealth();
     }
 
     private void RefreshHealth()

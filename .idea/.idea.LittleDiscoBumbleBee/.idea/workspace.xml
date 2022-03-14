@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="script movement toward player instead of interactive object, fixed missing references in scene">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovementTowardPlayer.cs" afterDir="false" />
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="try to merge movement toward player with interactive object">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Flower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Flower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +33,16 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flower.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MovementTowardPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flower.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25t5BnG2Itezr96uj8nTqLU55TD" />
@@ -92,7 +97,7 @@
       <workItem from="1646505061578" duration="5440000" />
       <workItem from="1646822296769" duration="7476000" />
       <workItem from="1647073857067" duration="2431000" />
-      <workItem from="1647267337987" duration="8080000" />
+      <workItem from="1647267337987" duration="9370000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -192,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647276273803</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="try to merge movement toward player with interactive object">
+      <created>1647276473901</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647276473901</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +241,7 @@
     <MESSAGE value="Added cactus class and health manager" />
     <MESSAGE value="Added general object pool" />
     <MESSAGE value="script movement toward player instead of interactive object, fixed missing references in scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="script movement toward player instead of interactive object, fixed missing references in scene" />
+    <MESSAGE value="try to merge movement toward player with interactive object" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to merge movement toward player with interactive object" />
   </component>
 </project>

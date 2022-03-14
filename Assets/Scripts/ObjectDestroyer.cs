@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class ObjectDestroyer : MonoBehaviour
 {
-   private void OnTriggerEnter2D(Collider2D other)
+    [SerializeField] private ObjectPool _objectPool;
+    
+    private void OnTriggerEnter2D(Collider2D other)
    {
-     other.gameObject.SetActive(false);
+     _objectPool.ReturnUsedObjectIntoPool(other.gameObject);
    }
 }
