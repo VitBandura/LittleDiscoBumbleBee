@@ -17,7 +17,7 @@ public class HealthManager : MonoBehaviour
         RefreshHealth();
     }
 
-    private void TakeDamage()
+    public void TakeDamage()
     {
         _honeyHearts[_health].gameObject.SetActive(false);
         _health--;

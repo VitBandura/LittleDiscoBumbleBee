@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Small rework of flower pool">
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Added cactus class and health manager">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,6 +36,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25t5BnG2Itezr96uj8nTqLU55TD" />
@@ -90,7 +91,7 @@
       <workItem from="1646505061578" duration="5440000" />
       <workItem from="1646822296769" duration="7476000" />
       <workItem from="1647073857067" duration="2431000" />
-      <workItem from="1647267337987" duration="2703000" />
+      <workItem from="1647267337987" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647268756895</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added cactus class and health manager">
+      <created>1647270930967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647270930967</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +211,7 @@
     <MESSAGE value="Some cleanup in scripts" />
     <MESSAGE value="Cactus temporally disabled. Added object pool for flower" />
     <MESSAGE value="Small rework of flower pool" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small rework of flower pool" />
+    <MESSAGE value="Added cactus class and health manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cactus class and health manager" />
   </component>
 </project>
