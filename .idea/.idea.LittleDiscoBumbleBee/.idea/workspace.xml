@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="try to merge movement toward player with interactive object">
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="object destroyer now returns flower and cactus back into pool">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Flower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Flower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +21,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scripts/Cactus.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scripts/HealthManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Prefabs/Cactus.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementTowardPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -36,13 +37,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/InteractiveObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FlowerPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MovementTowardPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flower.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Cactus.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="25t5BnG2Itezr96uj8nTqLU55TD" />
@@ -97,7 +98,7 @@
       <workItem from="1646505061578" duration="5440000" />
       <workItem from="1646822296769" duration="7476000" />
       <workItem from="1647073857067" duration="2431000" />
-      <workItem from="1647267337987" duration="9370000" />
+      <workItem from="1647267337987" duration="9954000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647276473901</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="object destroyer now returns flower and cactus back into pool">
+      <created>1647277762777</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647277762777</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,7 @@
     <MESSAGE value="Added general object pool" />
     <MESSAGE value="script movement toward player instead of interactive object, fixed missing references in scene" />
     <MESSAGE value="try to merge movement toward player with interactive object" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to merge movement toward player with interactive object" />
+    <MESSAGE value="object destroyer now returns flower and cactus back into pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="object destroyer now returns flower and cactus back into pool" />
   </component>
 </project>

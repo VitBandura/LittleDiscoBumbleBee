@@ -4,16 +4,17 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private ObjectPool _objectPool;
     [SerializeField] private GameObject[] _spawnPoints;
     [SerializeField] private float _spawnInterval;
     
+    private ObjectPool _objectPool;
     private int _spawnPointsCount;
     private float _timer;
     
     private void Awake()
     {
         _spawnPointsCount = _spawnPoints.Length;
+        _objectPool = GetComponentInChildren<ObjectPool>();
     }
     
     private void Update()

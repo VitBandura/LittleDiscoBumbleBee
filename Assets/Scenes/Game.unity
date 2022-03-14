@@ -1566,6 +1566,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8205202686195635393, guid: 0e5d4b32e16f754419098ae63dd63ce2, type: 3}
+      propertyPath: _objectPool
+      value: 
+      objectReference: {fileID: 970895582}
     - target: {fileID: 8205202686195635394, guid: 0e5d4b32e16f754419098ae63dd63ce2, type: 3}
       propertyPath: m_Name
       value: ObjectDestroyer
