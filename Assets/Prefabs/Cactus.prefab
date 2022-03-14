@@ -93,8 +93,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7728478492935416205}
-  - component: {fileID: -4914516717680542795}
   - component: {fileID: 6405909420005836286}
+  - component: {fileID: 5553194222362877820}
+  - component: {fileID: -4128780250995849370}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Cactus
@@ -118,19 +119,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-4914516717680542795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5814274473351550845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae7f28150eccb74ebaa8211525746eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _movementSpeed: 50
 --- !u!61 &6405909420005836286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -157,3 +145,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 30.89772, y: 25.836143}
   m_EdgeRadius: 0
+--- !u!114 &5553194222362877820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814274473351550845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c351578824ee12547b293cdfeb491b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-4128780250995849370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814274473351550845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e648b9c0645d99b478d64ff668ed802f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movementSpeed: 50

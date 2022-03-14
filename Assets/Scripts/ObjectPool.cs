@@ -10,7 +10,7 @@ public class ObjectPool : MonoBehaviour
 
     private List<GameObject> _objectPool;
 
-    private void Start()
+    private void Awake()
     {
         InitializePool();
     }
@@ -36,7 +36,7 @@ public class ObjectPool : MonoBehaviour
         var prefabsForSpawnCount = _prefabsForSpawn.Length;
         for (int i = 0; i < prefabsForSpawnCount; i++)
         {
-            for (int j = 0; i < _countOfEachPrefabInPool; i++)
+            for (int j = 0; j < _countOfEachPrefabInPool; j++)
             {
                 AddDeactivatedObjectIntoPool(i);
             }

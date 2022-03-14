@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] private FlowerPool _flowerPool;
+    [SerializeField] private ObjectPool _objectPool;
     [SerializeField] private GameObject[] _spawnPoints;
     [SerializeField] private float _spawnInterval;
     
@@ -36,9 +36,9 @@ public class Spawner : MonoBehaviour
 
     private void Spawn()
     {
-        var flower = _flowerPool.TakeFlowerFromPool();
-        flower.transform.position = SetRandomSpawnPoint();
-        flower.SetActive(true);
+        var prefab = _objectPool.TakeRandomObjectFromPool();
+        prefab.transform.position = SetRandomSpawnPoint();
+        prefab.SetActive(true);
     }
 
     private Vector3 SetRandomSpawnPoint()

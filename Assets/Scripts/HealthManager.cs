@@ -23,12 +23,19 @@ public class HealthManager : MonoBehaviour
         _health--;
         if(_health < 0)
         {
-            OnPlayerDead?.Invoke();
+            //testing
+            Debug.Log("Dead");
+            //OnPlayerDead?.Invoke();
+            RefreshHealth();
         }
     }
 
     private void RefreshHealth()
     {
         _health = 2;
+        foreach (var honeyHeart in _honeyHearts)
+        {
+            honeyHeart.gameObject.SetActive(true);
+        }
     }
 }
