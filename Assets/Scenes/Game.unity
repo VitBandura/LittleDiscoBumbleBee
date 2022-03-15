@@ -374,7 +374,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &697116997
 PrefabInstance:
@@ -568,56 +568,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942817550}
   m_CullTransparentMesh: 1
---- !u!1 &970895579
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 970895581}
-  - component: {fileID: 970895582}
-  m_Layer: 0
-  m_Name: ObjectPool
-  m_TagString: Untagged
-  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &970895581
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970895579}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.75, y: 15.61, z: -0.07304489}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &970895582
+--- !u!114 &970895582 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 970895582, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
+  m_PrefabInstance: {fileID: 7232616141485100360}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970895579}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8343b7b6ae7d31d42b676b404dcf7731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefabsForSpawn:
-  - {fileID: 5814274473351550845, guid: af3470dadc9a34346a8f0a99855fc886, type: 3}
-  - {fileID: 658254360613206874, guid: a3f06394fdcc17244baf90344e6eaeb5, type: 3}
-  _countOfEachPrefabInPool: 5
-  _scoreManager: {fileID: 1774145318}
-  _healthManager: {fileID: 600672329}
 --- !u!1 &1053352490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,25 +1430,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7232616143167877756, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: m_Name
-      value: Spawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: _flowerPool
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: _objectPool
-      value: 
-      objectReference: {fileID: 970895582}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
+    - target: {fileID: 970895582, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
       propertyPath: _scoreManager
       value: 
       objectReference: {fileID: 1774145318}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: _spawnPoints.Array.size
-      value: 3
+    - target: {fileID: 970895582, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
+      propertyPath: _healthManager
+      value: 
+      objectReference: {fileID: 600672329}
+    - target: {fileID: 7232616143167877756, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
+      propertyPath: m_Name
+      value: Spawner
       objectReference: {fileID: 0}
     - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
       propertyPath: _spawnPoints.Array.data[0]
@@ -1501,18 +1454,6 @@ PrefabInstance:
       propertyPath: _spawnPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1665822055}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: _prefabsForSpawn.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: _prefabsForSpawn.Array.data[0]
-      value: 
-      objectReference: {fileID: -7041206054795842111, guid: a3f06394fdcc17244baf90344e6eaeb5, type: 3}
-    - target: {fileID: 7232616143167877757, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
-      propertyPath: _prefabsForSpawn.Array.data[1]
-      value: 
-      objectReference: {fileID: 5814274473351550845, guid: af3470dadc9a34346a8f0a99855fc886, type: 3}
     - target: {fileID: 7232616143167877758, guid: a629c4ea083aecd478c1a6ecdd50f362, type: 3}
       propertyPath: m_RootOrder
       value: 7

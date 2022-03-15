@@ -7,12 +7,16 @@ public class ObjectPool : MonoBehaviour
     [SerializeField] private int _countOfEachPrefabInPool;
     [SerializeField] private ScoreManager _scoreManager;
     [SerializeField] private HealthManager _healthManager;
+    [SerializeField] private Player _player;
+    [SerializeField] private ObjectDestroyer _objectDestroyer;
 
     private List<GameObject> _objectPool;
 
     private void Awake()
     {
         InitializePool();
+        SubscribePlayerOnPool();
+        SubscribeOnObjectDestroyer();
     }
     
     private void InitializePool()
@@ -77,5 +81,15 @@ public class ObjectPool : MonoBehaviour
     private void SubscribeScoreManagerOnThisFlower(GameObject prefab)
     {
         prefab.GetComponent<Flower>().IncreaseScore += _scoreManager.AddScorePoint;
+    }
+
+    private void SubscribePlayerOnPool()
+    {
+        _player.ReturningIntoPoolEvent += ReturnUsedObjectIntoPool;
+    }
+
+    private void SubscribeOnObjectDestroyer()
+    {
+        _objectDestroyer.ReturningIntoPoolEvent += ReturnUsedObjectIntoPool;
     }
 }

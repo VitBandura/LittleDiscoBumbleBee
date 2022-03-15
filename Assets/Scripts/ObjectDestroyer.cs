@@ -1,11 +1,14 @@
+using System;
 using UnityEngine;
 
 public class ObjectDestroyer : MonoBehaviour
 {
-    [SerializeField] private ObjectPool _objectPool;
-    
+    public event Action<GameObject> ReturningIntoPoolEvent;
+
     private void OnTriggerEnter2D(Collider2D other)
    {
-     _objectPool.ReturnUsedObjectIntoPool(other.gameObject);
+       if(other.gameObject.GetComponent<Cactus>() != null || 
+          other.gameObject.GetComponent<Flower>() != null)
+           ReturningIntoPoolEvent?.Invoke(other.gameObject);
    }
 }

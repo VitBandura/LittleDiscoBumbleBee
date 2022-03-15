@@ -1,7 +1,10 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+   public event Action<GameObject> ReturningIntoPoolEvent;
+   
    [SerializeField] private float _movementSpeed;
    [SerializeField] private float _verticalOffset;
    [SerializeField] private float _maxHeight;
@@ -17,10 +20,16 @@ public class Player : MonoBehaviour
 
    private void Update()
    { 
-      MoveToTargetPosition();
-      UpdateTargetPosition();
+      Fly();
    }
-   
+
+   private void OnTriggerEnter2D(Collider2D other)
+   {
+      if(other.gameObject.GetComponent<Cactus>() != null || 
+         other.gameObject.GetComponent<Flower>() != null)
+         ReturningIntoPoolEvent?.Invoke(other.gameObject);
+   }
+
    private void InitializePlayerStartPosition()
    {
       transform.position = _startPosition;
@@ -43,5 +52,11 @@ public class Player : MonoBehaviour
       {
          _targetPosition = new Vector3(_targetPosition.x, _targetPosition.y - _verticalOffset);
       }
+   }
+
+   private void Fly()
+   {
+      MoveToTargetPosition();
+      UpdateTargetPosition();
    }
 }
