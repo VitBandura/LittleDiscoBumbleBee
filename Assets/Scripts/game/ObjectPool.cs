@@ -33,7 +33,9 @@ public class ObjectPool : MonoBehaviour
             IncreasePoolSize();
         }
         var randomIndex = Random.Range(0, _objectPool.Count);
-        return _objectPool[randomIndex];
+        var randomObject = _objectPool[randomIndex];
+        _objectPool.RemoveAt(randomIndex);
+        return randomObject;
     }
 
     private void ReturnUsedObjectIntoPool(GameObject usedObject)
@@ -44,9 +46,9 @@ public class ObjectPool : MonoBehaviour
     private void IncreasePoolSize()
     {
         var prefabsForSpawnCount = _prefabsForSpawn.Length;
-        for (int i = 0; i < prefabsForSpawnCount; i++)
+        for (var i = 0; i < prefabsForSpawnCount; i++)
         {
-            for (int j = 0; j < _countOfEachPrefabInPool; j++)
+            for (var j = 0; j < _countOfEachPrefabInPool; j++)
             {
                 AddUniquePrefabIntoPool(i);
             }
