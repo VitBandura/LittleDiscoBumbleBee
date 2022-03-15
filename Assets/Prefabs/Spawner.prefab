@@ -50,6 +50,9 @@ MonoBehaviour:
   _countOfEachPrefabInPool: 5
   _scoreManager: {fileID: 0}
   _healthManager: {fileID: 0}
+  _player: {fileID: 0}
+  _objectDestroyer: {fileID: 0}
+  _soundManager: {fileID: 0}
 --- !u!1 &7232616143167877756
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,9 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce034a07aadf0e43b1d9f3df35175f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectPool: {fileID: 970895582}
   _spawnPoints:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  _spawnInterval: 1
+  _spawnInterval: 0.2
