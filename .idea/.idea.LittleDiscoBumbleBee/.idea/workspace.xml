@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Fixed mistake when flower/cactus can be taken from pool before returning into">
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Background and title for main menu scene">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Кактус.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Кактус.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/кактусы.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/кактусы.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerStatic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerStatic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/game/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/mainMenu/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Unity/Projects/LittleDiscoBumbleBee/Assets/Prefabs/Cactus.prefab" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -102,7 +98,7 @@
       <workItem from="1646822296769" duration="7476000" />
       <workItem from="1647073857067" duration="2431000" />
       <workItem from="1647267337987" duration="10204000" />
-      <workItem from="1647329891014" duration="8597000" />
+      <workItem from="1647329891014" duration="10429000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -251,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647349264969</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Background and title for main menu scene">
+      <created>1647364276210</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1647364276210</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +298,7 @@
     <MESSAGE value="Removed layout group in canvas (health)" />
     <MESSAGE value="Added main menu scene and scene sound managers" />
     <MESSAGE value="Fixed mistake when flower/cactus can be taken from pool before returning into" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed mistake when flower/cactus can be taken from pool before returning into" />
+    <MESSAGE value="Background and title for main menu scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Background and title for main menu scene" />
   </component>
 </project>
