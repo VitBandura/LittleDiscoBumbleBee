@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="Rework of object destroyer, object pool and player. Now flower and cactus correctly return into pool">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectDestroyer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,7 @@
       <workItem from="1646822296769" duration="7476000" />
       <workItem from="1647073857067" duration="2431000" />
       <workItem from="1647267337987" duration="10204000" />
-      <workItem from="1647329891014" duration="2962000" />
+      <workItem from="1647329891014" duration="3410000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647278424906</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Rework of object destroyer, object pool and player. Now flower and cactus correctly return into pool">
+      <created>1647333141778</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1647333141778</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +259,7 @@
     <MESSAGE value="try to merge movement toward player with interactive object" />
     <MESSAGE value="object destroyer now returns flower and cactus back into pool" />
     <MESSAGE value="object pool now is a part of spawner (in scene)" />
-    <option name="LAST_COMMIT_MESSAGE" value="object pool now is a part of spawner (in scene)" />
+    <MESSAGE value="Rework of object destroyer, object pool and player. Now flower and cactus correctly return into pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rework of object destroyer, object pool and player. Now flower and cactus correctly return into pool" />
   </component>
 </project>
