@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="">
+    <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="//error at last pushing attempt">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/CactusStatic.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CactusStatic.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/StaticFlower.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/StaticFlower.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/game/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/game/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,7 @@
       <workItem from="1647073857067" duration="2431000" />
       <workItem from="1647267337987" duration="10204000" />
       <workItem from="1647329891014" duration="11075000" />
-      <workItem from="1647521600632" duration="2815000" />
+      <workItem from="1647521600632" duration="3811000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -266,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647367352891</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Reworked main menu. Added rules screen and screen slider class">
+      <created>1647526723662</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1647526723662</updated>
+    </task>
+    <task id="LOCAL-00025" summary="//error at last pushing attempt">
+      <created>1647526858433</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1647526858433</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +299,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Started new project" />
     <MESSAGE value="Added some project configuration files" />
     <MESSAGE value="Added player movement script" />
     <MESSAGE value="Added interactive objects and spawner for them (prefabs and scripts)" />
@@ -312,6 +322,8 @@
     <MESSAGE value="Fixed mistake when flower/cactus can be taken from pool before returning into" />
     <MESSAGE value="Background and title for main menu scene" />
     <MESSAGE value="Added flower and cactus in main menu with animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added flower and cactus in main menu with animations" />
+    <MESSAGE value="Reworked main menu. Added rules screen and screen slider class" />
+    <MESSAGE value="//error at last pushing attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="//error at last pushing attempt" />
   </component>
 </project>
