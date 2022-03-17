@@ -1,0 +1,28 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ScreenSlider : MonoBehaviour
+{
+   [SerializeField] private Canvas _mainMenuScreen;
+   [SerializeField] private Canvas _rulesScreen;
+   
+   private void Awake()
+   {
+      SwitchToMainMenuScreen();
+   }
+
+   public void SwitchToMainMenuScreen()
+   {
+      _mainMenuScreen.gameObject.SetActive(true);
+      _rulesScreen.gameObject.SetActive(false);
+   }
+
+   public void SwitchToRulesScreen()
+   {
+      _rulesScreen.gameObject.SetActive(true);
+      _mainMenuScreen.gameObject.SetActive(false);
+   }
+}

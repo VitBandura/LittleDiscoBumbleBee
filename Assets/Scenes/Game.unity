@@ -808,8 +808,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _backgroundMusic: {fileID: 8300000, guid: b6ff18805ccf93b499a516f4c8c89723, type: 3}
-  _harmPlayer: {fileID: 8300000, guid: cce2776f9b74c4e4d96582112119f512, type: 3}
-  _increaseScore: {fileID: 8300000, guid: 1f1b267e60b95754194a6d566a64bee6, type: 3}
+  _harmPlayerSound: {fileID: 8300000, guid: cce2776f9b74c4e4d96582112119f512, type: 3}
+  _increaseScoreSound: {fileID: 8300000, guid: 1f1b267e60b95754194a6d566a64bee6, type: 3}
 --- !u!1 &1451807560
 GameObject:
   m_ObjectHideFlags: 0

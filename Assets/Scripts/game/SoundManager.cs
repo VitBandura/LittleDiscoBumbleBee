@@ -6,8 +6,8 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] private AudioClip _backgroundMusic;
-    [SerializeField] private AudioClip _harmPlayer;
-    [SerializeField] private AudioClip _increaseScore;
+    [SerializeField] private AudioClip _harmPlayerSound;
+    [SerializeField] private AudioClip _increaseScoreSound;
 
     private AudioSource _audioSource;
 
@@ -25,11 +25,11 @@ public class SoundManager : MonoBehaviour
 
     public void PlayHarmPlayerSound()
     {
-        _audioSource.PlayOneShot(_harmPlayer);
+        _audioSource.PlayOneShot(_harmPlayerSound);
     }
 
     public void PlayIncreaseScoreSound()
     {
-        _audioSource.PlayOneShot(_increaseScore);
+        _audioSource.PlayOneShot(_increaseScoreSound);
     }
 }
