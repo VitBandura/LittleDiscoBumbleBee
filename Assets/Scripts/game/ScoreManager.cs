@@ -4,8 +4,9 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text _scoreUI;
-    private float _score;
-    
+   
+    public float score { get; private set; }
+
     private void Awake()
     {
         RefreshScore();
@@ -13,13 +14,13 @@ public class ScoreManager : MonoBehaviour
     
     private void RefreshScore()
     {
-        _score = 0;
-        _scoreUI.text = _score.ToString();
+        score = 0;
+        _scoreUI.text = score.ToString();
     }
     
     public void AddScorePoint()
     {
-        _score++;
-        _scoreUI.text = _score.ToString();
+        score++;
+        _scoreUI.text = score.ToString();
     }
 }

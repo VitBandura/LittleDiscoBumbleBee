@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    private event Action OnPlayerDead;
+    public event Action OnPlayerDead;
     
     [SerializeField] private Canvas _healthBar;
 
@@ -22,10 +22,7 @@ public class HealthManager : MonoBehaviour
         _honeyHearts[_health].gameObject.SetActive(false);
         _health--;
         if (_health >= 0) return;
-        //testing
-        Debug.Log("Dead");
-        //OnPlayerDead?.Invoke();
-        RefreshHealth();
+        OnPlayerDead?.Invoke();
     }
 
     private void RefreshHealth()
