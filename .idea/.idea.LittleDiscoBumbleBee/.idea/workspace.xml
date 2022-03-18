@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf449af-2ebe-4acb-9c00-572cc4b69c57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleDiscoBumbleBee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/CactusStatic.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CactusStatic.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/StaticFlower.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/StaticFlower.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CactusStatic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CactusStatic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FlowerStatic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FlowerStatic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerStatic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerStatic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +108,8 @@
       <workItem from="1647267337987" duration="10204000" />
       <workItem from="1647329891014" duration="11075000" />
       <workItem from="1647521600632" duration="5167000" />
+      <workItem from="1647532980155" duration="96000" />
+      <workItem from="1647598805728" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Started new project">
       <created>1646333471176</created>
@@ -289,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647529949130</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="//Github server crashed error.. refreshing last commits">
+      <created>1647533040937</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1647533040937</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +329,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added interactive objects and spawner for them (prefabs and scripts)" />
     <MESSAGE value="Added object destroyer" />
     <MESSAGE value="Added simple score counter and health panel" />
     <MESSAGE value="Added simple score counter and background. Small speed changes" />
@@ -336,6 +353,7 @@
     <MESSAGE value="//error at last pushing attempt" />
     <MESSAGE value="Added particle system as wind effect" />
     <MESSAGE value="//pushing errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="//pushing errors" />
+    <MESSAGE value="//Github server crashed error.. refreshing last commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Github server crashed error.. refreshing last commits" />
   </component>
 </project>
